@@ -4,7 +4,7 @@ import { useSnapshot } from 'valtio';
 
 import { useFrame } from '@react-three/fiber';
 import { Decal, useGLTF, useTexture ,Torus, Sphere} from '@react-three/drei';
-import { MeshStandardMaterial } from 'three';
+import { MeshStandardMaterial, MeshLambertMaterial, MeshPhongMaterial } from 'three';
 import state from '../store';
 
 const Model = () => {
@@ -19,22 +19,22 @@ const Model = () => {
   return (
     <group key={stateString}>
       <mesh castShadow dispose={null}>
-        <Torus args={[0.2, 0.1, 30]} scale={1} >
+        <Sphere args={[0.2, 100, 200]} scale={1} >
        
-        <meshStandardMaterial color={snap.color} />
+        <meshPhongMaterial color={snap.color} />
        
         {snap.isFullTexture && (
           <Decal 
             position={[0, 0, 0]}
             rotation={[0, 0, 0]}
-            scale={2}
+            scale={0.5}
             map={fullTexture}
           />
         )}
 
         {snap.isLogoTexture && (
           <Decal 
-            position={[0, 0.04, 0.15]}
+            position={[0.04, 0.04, 0.14]}
             rotation={[0, 0, 0]}
             scale={0.15}
             map={logoTexture}
@@ -43,7 +43,7 @@ const Model = () => {
             depthWrite={true}
           />
         )}
-        </Torus>
+        </Sphere>
       </mesh>
     </group>
   )
