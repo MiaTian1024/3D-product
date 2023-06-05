@@ -3,6 +3,7 @@ Use Three.js to load, create and customize a stunning 3D model with various ligh
 #### Web Address: https://chat-mode.vercel.app
 
 ### Screenshot  
-<img src="Screenshot 2023-06-04 at 12.24.08 AM.png" alt="Screenshot" style="width: 800px; height: auto;"> <br>
-<img src="Screenshot 2023-06-04 at 12.26.36 AM.png" alt="Screenshot" style="width: 800px; height: auto;"> <br>
+<img src="Screenshot 2023-06-04 at 12.24.08 AM.png" alt="Screenshot" style="width: 600px; height: auto;"> <br>
+------
+<img src="Screenshot 2023-06-04 at 12.26.36 AM.png" alt="Screenshot" style="width: 600px; height: auto;"> <br>
 
