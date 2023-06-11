@@ -6,4 +6,10 @@ Use Three.js to load, create and customize a stunning 3D model with various ligh
 <img src="Screenshot 2023-06-04 at 12.24.08 AM.png" alt="Screenshot" style="width: 600px; height: auto;"> <br>
 ------
 <img src="Screenshot 2023-06-04 at 12.26.36 AM.png" alt="Screenshot" style="width: 600px; height: auto;"> <br>
+------
+<img src="color.png" alt="Screenshot" style="width: 600px; height: auto;"> <br>
+------
+<img src="file.png" alt="Screenshot" style="width: 600px; height: auto;"> <br>
+
+
 
